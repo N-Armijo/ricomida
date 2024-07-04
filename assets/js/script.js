@@ -1,7 +1,8 @@
 $(() => {
-    // JS Bootstrap para tootips
+    // JS Bootstrap para tooltips
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    //Inicio JS Propio
     $("#enviarCorreo").on('click', (e) =>{
         alert("El correo fue enviado correctamente");
     })

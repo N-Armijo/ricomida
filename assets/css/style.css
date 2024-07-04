@@ -30,7 +30,26 @@ hr{
     border-width: 2px;
     opacity: 100;
 }
- /*Termina el overlappig de las cards*/
+/*Estilo carousel indicators*/
+.carousel-indicators.custom-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #373A3C31;
+    opacity: 0.5;
+    }
+.carousel-indicators.custom-indicators {
+    bottom: -50px;
+}
+.carousel-indicators.custom-indicators .active {
+    background-color:#373A3C ;
+    opacity: 1;
+}
+.carousel-indicators.custom-indicators button:hover {
+    background-color:#373A3C31;
+    opacity: 0.99;
+}
+/*Termina el overlappig de las cards*/
 .todas-cards {
     display: grid;
     grid-template-columns: 1fr;
