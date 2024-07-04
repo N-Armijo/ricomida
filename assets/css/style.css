@@ -13,6 +13,7 @@ footer {
 .logo-ricomida {
     color: #dddddd;
     font-family:"Lobster", sans-serif;
+    font-size: 32px;
     }
 h1,h2,h3,h4,h5{
     font-family: "Cabin", sans-serif;
@@ -29,3 +30,19 @@ hr{
     border-width: 2px;
     opacity: 100;
 }
+ /*Termina el overlappig de las cards*/
+.todas-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+} 
+@media screen and (min-width: 470px) {
+    .todas-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 700px) {
+    .todas-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} 
