@@ -18,3 +18,14 @@ h1,h2,h3,h4,h5{
     font-family: "Cabin", sans-serif;
     font-weight: 700;
     }
+.toggle-btn{
+    color: #777777;
+}
+.b-toggle-custom{
+    border-color: #777777;
+}
+hr{
+    border-color: #000000;
+    border-width: 2px;
+    opacity: 100;
+}
