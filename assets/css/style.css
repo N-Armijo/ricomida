@@ -1,0 +1,20 @@
+body {
+    color: #373A3C;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    }
+footer {
+    font-family: "Lobster", sans-serif;
+    }
+.logo-ricomida {
+    color: #dddddd;
+    font-family:"Lobster", sans-serif;
+    }
+h1,h2,h3,h4,h5{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    }
